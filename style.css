@@ -140,6 +140,9 @@ a{
     transition: 0.3s ease;
   }
 
+.content .material-symbols-outlined {
+    display: none;
+}
 
 @media screen and (max-width: 768px){
     .topInfo .headerP {
@@ -220,4 +223,11 @@ a{
     .aboutDes {
         font-size: 1rem;
     }
+
+    .content .material-symbols-outlined {
+        display: inline;
+    }
+    .card:hover {
+        transform: none;
+      }
 }
