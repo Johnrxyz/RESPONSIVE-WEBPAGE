@@ -188,6 +188,12 @@ a{
         width: 100%;
 
     }
+    .content .material-symbols-outlined {
+        display: inline;
+    }
+    .card:hover {
+        transform: none;
+      }
 }
 
 @media screen and (max-width: 425px) {
@@ -223,11 +229,4 @@ a{
     .aboutDes {
         font-size: 1rem;
     }
-
-    .content .material-symbols-outlined {
-        display: inline;
-    }
-    .card:hover {
-        transform: none;
-      }
 }
