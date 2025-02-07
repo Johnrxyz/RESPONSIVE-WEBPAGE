@@ -170,7 +170,7 @@ a{
         font-size: 3vw;
     }
     .container {
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         height: 400px;
         overflow-y: auto;
