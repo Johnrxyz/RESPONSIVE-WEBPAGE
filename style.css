@@ -103,7 +103,11 @@ a{
     filter: grayscale(0%);
 }
 
-.mainC a {
+.about img:hover {
+    filter: grayscale(0%);
+}
+
+.mainC a, .about img {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
 }
@@ -150,7 +154,7 @@ a{
 
 @media screen and (max-width: 768px){
     .topInfo .headerP {
-        font-size: 1rem;
+        font-size: 3vw;
     }
 
     .topInfo {
@@ -227,7 +231,7 @@ a{
     }
 
     .aboutMe {
-        font-size: 3rem;
+        font-size: 11vw;
     }
 
     .aboutDes {
